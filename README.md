@@ -18,7 +18,7 @@ __NOTE:__ I'm using 128x64 display size. You can use other display sizes, e.g., 
 
 ## Circuit Layout
 
-For I2C you need to connect D1 and D2 together (this is done internally through code), which then connects to SCL. D0 is the clock and connects to SDA. The SSD1306 display already uses pull-up resistors. VCC is connected to 5V from the FTDI breadboard.
+For I2C you need to connect D1 and D2 together (this is done internally through code), which then connects to SDA. D0 is the clock and connects to SCL. The SSD1306 display already uses pull-up resistors. VCC is connected to 5V from the FTDI breadboard.
 
 ![](./Images/layout.png)
 _Wiring diagram._
